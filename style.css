@@ -1,0 +1,48 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.caixaTexto1 {
+    color: antiquewhite;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgb(91, 91, 216);
+    margin: 20px;
+    height: 130px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.integrantes {
+    display: flex;
+}
+
+.participante {
+    margin: 3px;
+}
+
+.caixaSelect1 {
+    background-color: rgb(91, 91, 216);
+    margin: 20px;
+    color: antiquewhite;
+    border-radius: 20px;
+    width: 20%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+
